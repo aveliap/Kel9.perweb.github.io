@@ -4,7 +4,7 @@ body, html {
 }
 
 * {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .container img{
@@ -28,7 +28,7 @@ box-sizing: border-box;
 /* Add styles to the form container */
 .container {
   position: absolute;
-  margin: 100px 500px 20px 520px;
+  margin: 50px 500px 20px 520px;
   max-width: 300px;
   padding: 16px;
   background-color: black;
