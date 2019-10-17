@@ -15,19 +15,43 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-a {
-    text-decoration: none;
-}
-
 *{
   box-sizing: border-box;
 }
 
 body {
+  font-family:Helvetica,Arial,sans-serif;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
+.info {
+    width: 100%;
+    text-align: center;
+}
+.info .info-title {
+    color: #5d5b5e;
+    font-size: 23px;
+}
+.info .wording {
+    color: #888;
+    font-size: 18px;
+    font-weight: 300;
+    /* line-height: 1.5; */
+}
+.info .wording a {
+    color: inherit;
+}
+a, a:focus, a:hover {
+    text-decoration: none;
+    color: #4caf50;
+}
+
+.bold, h5 {
+    font-weight: 500;
+}
+
+
+/* topnav */
 .topnav .logo{
   float: left;
     display: inline-block;
@@ -175,166 +199,7 @@ body {
   }
 }
 
-.mySlides {display: none}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 100%;
-  position: relative;
-  margin: auto;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 30px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media screen and (max-width: 600px) {
-  .prev, .next, .text {font-size: 11px}
-}
-
-/* card */
-/* Float four columns side by side */
-.column {
-  float: left;
-  width: 20%;
-  padding: 0 10px;
-}
-
-/* Remove extra left and right margins, due to padding */
-.row {margin: 0 -5px;}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive columns */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 50%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
-
-/* Style the counter cards */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
-}
-
-.card p{
-  color: grey;
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.container {
-  padding: 2px 16px;
-  text-align: justify;
-}
-
-.container button{
-  background-color: #3C6717;
-  padding: 12px 28px;
-  font-size: 20px;
-  width: 100%;
-  border-radius: 4px;
-  vertical-align: middle;
-}
-
-.container button:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 20px 0 rgba(0,0,0,0.19);
-}
-
-.sub h2{
-  padding-left: 20px;
-    display: inline-block;
-}
-
-.sub h4{
-  float: right;
-  padding-right: 30px;
-  display: inline-block;
-}
-
+/* footer */
 .footer {
    position:fixed;
    /* left: 0; */
@@ -361,26 +226,4 @@ img {vertical-align: middle;}
   margin: 0 2px;
   padding: 35px 30px 5px;
   display: inline-block;
-}
-
-/* #txt{
-  padding-left:250px;
-} */
-
-@media (max-width: 600px) {
-  .footer .logo{
-    display: none;
-  }
-  .footer .icon{
-    display: none;
-  }
-  .footer p{
-    display: none;
-    /* padding: 0px;
-    float: left;
-    display: grid; */
-  }
-  .col3, .col4, .col5{
-    display: none;
-  }
 }

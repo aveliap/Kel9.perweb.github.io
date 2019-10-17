@@ -1,6 +1,8 @@
-body, html {
+body{
+  margin: 0;
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
+    background-image: url("asset/HEADER.jpg");
 }
 
 * {
@@ -15,9 +17,7 @@ box-sizing: border-box;
 .bg {
   /* The image used */
   background-image: url("asset/HEADER.jpg");
-
-  min-height: 650px;
-
+  min-height: 664px;
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -31,7 +31,7 @@ box-sizing: border-box;
   margin: 100px 500px 20px 520px;
   max-width: 300px;
   padding: 16px;
-  background-color: black;
+  background-color: rgba(0,0,0,0.7);
 }
 .container h1{
   color: #E99D29;
@@ -68,4 +68,17 @@ input[type=text]:focus, input[type=password]:focus {
 
 .btn:hover {
   opacity: 1;
+}
+
+a{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .bg{
+    position: relative;
+  }
+  .container{
+  margin: 100px 0px 0px 70px;
+  }
 }
