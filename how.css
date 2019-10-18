@@ -24,32 +24,9 @@ body {
   margin: 0;
 }
 
-.info {
-    width: 100%;
-    text-align: center;
+.col-4{
+  margin-top: 20px;
 }
-.info .info-title {
-    color: #5d5b5e;
-    font-size: 23px;
-}
-.info .wording {
-    color: #888;
-    font-size: 18px;
-    font-weight: 300;
-    /* line-height: 1.5; */
-}
-.info .wording a {
-    color: inherit;
-}
-a, a:focus, a:hover {
-    text-decoration: none;
-    color: #4caf50;
-}
-
-.bold, h5 {
-    font-weight: 500;
-}
-
 
 /* topnav */
 .topnav .logo{
@@ -142,7 +119,6 @@ border-radius: 20px;
 .topnav .icon {
   display: none;
 }
-
 @media screen and (max-width: 600px) {
   .topnav a:not(:last-child) {display: none;}
 
@@ -231,7 +207,6 @@ border-radius: 20px;
   padding: 35px 30px 5px;
   display: inline-block;
 }
-
 
 @media screen and (max-width: 600px) {
   .col-4{

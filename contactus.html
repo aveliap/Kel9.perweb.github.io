@@ -13,7 +13,7 @@
       <img class="logo" src="asset/LOGO FRESHBOXX.png">
       <a href="index.html" >Home</a>
       <a href="#news">Category</a>
-      <a href="#contact">How It Works</a>
+      <a href="how.html">How It Works</a>
       <a href="contactus.html" class="active">Contact Us</a>
      <a href="Loginpage.html">Login</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -22,7 +22,7 @@
 
       <div class="search-container">
           <form action="#">
-            <input type="text" placeholder="Cari Buah atau Sayur" name="search">
+            <input type="text" placeholder="Search lovely veggies" name="search">
             <button type="submit"><i class="fa fa-search"></i></button>
           </form>
         </div>
@@ -106,5 +106,15 @@
     </div>
 </div>
 </footer>
+<script type="text/javascript">
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
   </body>
 </html>

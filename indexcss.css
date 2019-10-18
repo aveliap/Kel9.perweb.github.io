@@ -102,8 +102,12 @@ body {
 .topnav a:hover {
   background-color: #98A42F;
   color: black;
+  border-radius: 20px;
 }
 
+.active{
+border-radius: 20px;
+}
 
 .topnav a.active {
   background-color: #98A42F;
