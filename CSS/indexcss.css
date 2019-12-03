@@ -342,9 +342,10 @@ img {vertical-align: middle;}
 .footer {
    position:fixed;
    /* left: 0; */
+   background-color: #3C6717 ;
    bottom: 0;
    width: 100%;
-   background-color: #3C6717;
+
    color: white;
    text-align: right;
 }
