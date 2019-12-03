@@ -15,7 +15,7 @@ body{
 
 .bg {
   /* The image used */
-  background-image: url("asset/HEADER.jpg");
+  background-image: url("../asset/HEADER.jpg");
 
   min-height: 650px;
 
